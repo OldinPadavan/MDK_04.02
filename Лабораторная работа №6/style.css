@@ -1,0 +1,25 @@
+BODY{
+  background: #FFEFD5;
+}
+H1 {
+  color: purple;
+  font-family: Courier;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 25pt;
+}
+H2 {
+  color: purple;
+  font-family: Courier;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 18pt;
+}
+P {
+  color: black;
+  font-family: Courier;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 15;
+
+}

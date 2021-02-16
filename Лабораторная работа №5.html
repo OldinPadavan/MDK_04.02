@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<HTML lang="en" dir="ltr">
+  <HEAD>
+    <meta charset="utf-8">
+    <title>"Анкета"</title>
+  </HEAD>
+  <!DOCTYPE html>
+  <BODY>
+    <LEFT><H1><INS> Анкета </INS></H1></LEFT>
+    <FORM class="" action="index.html" method="post">
+      <LEFT><FONT color = "navy">Имя: </FONT></LEFT>
+      <BR>
+      <INPUT type="text" name="myName" size="15" maxlength="20" value="Имя">
+      <BR>
+      <BR>
+      <LEFT><FONT color = "navy">Фамилия: </FONT></LEFT>
+      <BR>
+      <INPUT type="text" name="myLastName" size="20" maxlength="25" value="Фамилия">
+      <BR>
+      <BR>
+      <LEFT><FONT color = "navy">Отчество: </FONT></LEFT>
+      <BR>
+      <INPUT type="text" name="myName" size="20" maxlength="25" value="Отчество">
+      <BR>
+      <BR>
+      <LEFT><FONT color = "navy">Пол: </FONT></LEFT>
+      <BR>
+      <INPUT type=radio name=pol value="Мужской">Мужской
+      <INPUT type=radio name=pol value="Женский">Женский
+      <BR>
+    <HR color=silver>
+      <LEFT><FONT color = "navy">Логин: </FONT></LEFT><BR>
+      <INPUT type="text" name="Log" size="10" maxlength="15" value="Логин">
+      <BR>
+      <BR>
+      <LEFT><FONT color = "navy">Пароль: </FONT></LEFT><BR>
+      <INPUT type="password" name="userPassword" size="20" maxlength="30" value="Пароль">
+    <HR color=silver>
+      <LEFT><FONT color = "navy">Введите дату рождения: </FONT></LEFT><BR>
+      <INPUT type="text" name="Date" size="5" maxlength="2" value="Число">
+      <SELECT name=month>
+        <OPTION>Месяц: </OPTION>
+        <OPTION>Январь</OPTION>
+        <OPTION>Февраль</OPTION>
+        <OPTION>Март</OPTION>
+        <OPTION>Апрель</OPTION>
+        <OPTION>Май</OPTION>
+        <OPTION>Июнь</OPTION>
+        <OPTION>Июль</OPTION>
+        <OPTION>Август</OPTION>
+        <OPTION>Сентябрь</OPTION>
+        <OPTION>Октябрь</OPTION>
+        <OPTION>Ноябрь</OPTION>
+        <OPTION>Декабрь</OPTION>
+
+      </SELECT>
+      <INPUT type="text" name="Date" size="4" maxlength="4" value="Год">
+    <HR color=silver>
+      <LEFT><FONT color = "navy">Укажите ваше образование: </FONT></LEFT><BR>
+      <SELECT name=graduence>
+        <OPTION>Нигде не учился</OPTION>
+        <OPTION>Среднее общее</OPTION>
+        <OPTION>Среднее полное</OPTION>
+        <OPTION>Среднее-специальное</OPTION>
+        <OPTION>Высшее</OPTION>
+      </SELECT>
+    <HR color=silver>
+      <LEFT><FONT color = "navy">Род деятельности: </FONT></LEFT><BR>
+      <INPUT type=checkbox name=student>Студент
+        <BR>
+      <INPUT type=checkbox name=worker>Работающий
+        <BR>
+      <INPUT type=checkbox name=bisnesmen>Предприниматель
+        <BR>
+      <INPUT type=checkbox name=withoutWork>Безработный
+    <HR color=silver>
+      <LEFT><FONT color = "navy">Немного о себе: </FONT></LEFT><BR>
+      <TEXTAREA name=aboutMe rows=7 cols=20 wrap= virtual>Для ввода используйте клавиатуру...</TEXTAREA>
+    <HR color=silver>
+      <INPUT type=reset value=Очистить поля>
+      <INPUT type=submit value=Отправить>
+
+    </FORM>
+
+
+  </BODY>
+
+</HTML>

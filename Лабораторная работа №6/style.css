@@ -1,5 +1,5 @@
 BODY{
-  background: #FFEFD5;
+  background: #fcefec;
 }
 H1 {
   color: purple;
@@ -14,6 +14,14 @@ H2 {
   font-style: oblique;
   font-weight: bold;
   font-size: 18pt;
+}
+
+H3 {
+  color: #c7bebc;
+  font-family: Palatino,serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 16pt;
 }
 P {
   color: black;

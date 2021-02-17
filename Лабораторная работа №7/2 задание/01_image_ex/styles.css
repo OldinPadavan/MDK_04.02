@@ -1,0 +1,86 @@
+/* сброс стилей браузера */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: *;
+	padding: *;
+	border: *;
+	font-size: ***%;
+	vertical-align: ?;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: *.*;
+}
+ol { 
+	padding-left: *.*em;
+	list-style: ?;
+}
+ul {
+	padding-left: *.*em;
+	list-style: ?;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: *;
+} 
+/* конец кода сброса стилей браузера */
+
+body {
+	font-size: *%;
+}
+
+.content {
+	margin: *px;
+	border: *px dashed #***;
+	border-bottom: ?;
+}
+h1 {
+	font: normal *.*em Verdana, Arial, Helvetica, sans-serif;
+	border-bottom: 1px dashed #***;
+	padding: *px * *px *px;
+	color: #14556b;
+}
+p {
+	font: *.*em/***% Georgia, "Times New Roman", Times, serif;
+	margin: **px *px;
+}
+.copyright {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: *em;
+	text-transform: ?;
+	color: #******;
+	margin-left: *px;
+	padding-left: *px;
+	border-top: *px dashed #***;
+	clear: ?;
+}
+/* пользовательские стили  */
+
+figure {
+  float: right;
+  width: ***px;
+  margin: **px **px *px *px;
+}
+figure img {
+  border: *px solid #***;
+  background-color: #CCC;
+  padding: **px;
+}
+figcaption {
+  font: bold 1em/normal Verdana, Arial, Helvetica, sans-serif;
+  color: #***;
+  text-align: ?;
+  background-image: linear-gradient(to bottom, #e6f3ff, white);
+  border: *px dashed #***;
+  padding: *px;
+}
+
+
+
+
+
+

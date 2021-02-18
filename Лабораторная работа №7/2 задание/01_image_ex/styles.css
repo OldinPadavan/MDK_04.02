@@ -74,7 +74,7 @@ figure img {
 figcaption {
   font: bold 1em/normal Verdana, Arial, Helvetica, sans-serif;
   color: black;
-  text-align: ?;
+  text-align: right;
   background-image: linear-gradient(to bottom, #e6f3ff, white);
   border: 20px dashed black;
   padding: 8px;

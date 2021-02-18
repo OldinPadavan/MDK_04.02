@@ -1,86 +1,81 @@
 /* сброс стилей браузера */
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+html, span, object, iframe, h2, h3, h4, h5, h6, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: *;
-	padding: *;
-	border: *;
-	font-size: ***%;
-	vertical-align: ?;
+	margin: 2%;
+	padding: 0px;
+	border: dotted;
+	border-color: #d1d1cf;
+	font-size: 100%;
+	vertical-align: middle;
 }
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: *.*;
+	line-height: 1.5;
 }
-ol { 
-	padding-left: *.*em;
-	list-style: ?;
+ol {
+	padding-left: 1.5em;
+	list-style: none;
 }
 ul {
-	padding-left: *.*em;
-	list-style: ?;
+	padding-left: 0.5em;
+	list-style: none;
 }
 table {
 	border-collapse: collapse;
-	border-spacing: *;
-} 
+	border-spacing: 7px  7px;
+}
 /* конец кода сброса стилей браузера */
 
 body {
-	font-size: *%;
+	font-size: 100%;
 }
 
 .content {
-	margin: *px;
-	border: *px dashed #***;
-	border-bottom: ?;
+	margin: 2px;
+	border: 2px dashed black;
+	border-bottom: inherit;
 }
 h1 {
-	font: normal *.*em Verdana, Arial, Helvetica, sans-serif;
-	border-bottom: 1px dashed #***;
-	padding: *px * *px *px;
-	color: #14556b;
+	font: normal 2em Verdana, Arial, Helvetica, sans-serif;
+	border-bottom: 3px dotted #d1d1cf;
+	padding: 2px 0px 2px 9px;
+	color: #0a97d8;
 }
 p {
-	font: *.*em/***% Georgia, "Times New Roman", Times, serif;
-	margin: **px *px;
+	font: Georgia, "Times New Roman", Times, serif;
+	margin: 15px 1px;
 }
 .copyright {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: *em;
-	text-transform: ?;
-	color: #******;
-	margin-left: *px;
-	padding-left: *px;
-	border-top: *px dashed #***;
-	clear: ?;
+	font-size: 1em;
+	text-transform: uppercase;
+	color: #dddfca;
+	margin-left: 2px;
+	padding-left: 2px;
+	border-top: 3px dotted #d1d1cf;
+	clear: none;
 }
 /* пользовательские стили  */
 
 figure {
   float: right;
-  width: ***px;
-  margin: **px **px *px *px;
+  width: 100px;
+  margin: 20px 20px 4px 4px;
 }
 figure img {
-  border: *px solid #***;
+  border: 2px solid black;
   background-color: #CCC;
-  padding: **px;
+  padding: 60px;
 }
 figcaption {
   font: bold 1em/normal Verdana, Arial, Helvetica, sans-serif;
-  color: #***;
+  color: black;
   text-align: ?;
   background-image: linear-gradient(to bottom, #e6f3ff, white);
-  border: *px dashed #***;
-  padding: *px;
+  border: 20px dashed black;
+  padding: 8px;
 }
-
-
-
-
-
-

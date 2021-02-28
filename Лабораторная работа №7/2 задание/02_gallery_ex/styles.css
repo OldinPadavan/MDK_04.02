@@ -1,4 +1,4 @@
-/* сброс стилей браузера */
+/* сброс стилей браузера
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: *;
 	padding: *;
@@ -12,7 +12,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 body {
 	line-height: *.*;
 }
-ol { 
+ol {
 	padding-left: *.*em;
 	list-style: decimal;
 }
@@ -23,11 +23,12 @@ ul {
 table {
 	border-collapse: ?;
 	border-spacing: 0;
-} 
+}
 /* конец кода сброса стилей браузера */
+*/
 
 body {
-	font-size: **.*%;
+	font-size: 20.5%;
 }
 .content {
 	margin-left: 15px;
@@ -37,37 +38,53 @@ body {
 	border-bottom: ?;
 }
 
+h1 {
+	font: normal 1.5em Verdana, Arial, Helvetica, sans-serif;
+	border-bottom: 1px dashed #d3d5d6;
+	margin-top: -0.1%;
+	padding: 5px 5px 5px 8px;
+	color: #14556b;
+}
+
 .gallery .figure p {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 1.1em;
+	font-size: 1.0em;
 	text-align: center;
 	line-height: normal;
 }
 
 p {
-	font: 1.6em/160% Georgia, "Times New Roman", Times, serif;
-	margin: **px 8px;
+	font: 1.2em/160% Georgia, "Times New Roman", Times, serif;
+	margin: 20px 8px;
 }
 .copyright {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: *em;
-	text-transform: ?;
+	font-size: 0.9em;
+	text-transform: uppercase;
 	color: #666666;
 	margin-left: 0px;
-	padding-left: *px;
+	padding-left: 2px;
+	margin-bottom: -0.5px;
 	border-top: 1px dashed #999;
 	clear: both;
 }
 
 figcaption {
-  font: 1.1em Arial, Helvetica, sans-serif;
+  font: 0.9em Arial, Helvetica, sans-serif;
   text-align: center;
-  margin: 10px * * *;
+  margin: 10px 0px 0px 0px;
 }
 
 figure {
   display: inline-block;
-  vertical-align: ?;
-  width: ***px;
-  margin: 0 **px 10px **px;
+  vertical-align: middle;
+  width: 200px;
+  margin: 0 25px 10px 30px;
+}
+
+figure img {
+  border: 1px solid #767676;
+  background-color: white;
+  padding: 5px;
+	box-shadow: 3px 2px 2px #ababab;
 }

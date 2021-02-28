@@ -4,7 +4,7 @@
 	border: *;
 	font-size: ***%;
 	vertical-align: ?;
-}
+}/*
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -31,47 +31,48 @@ body {
 }
 
 .content {
-	margin: 5px;
+	margin: 10px;
 	border: 1px dashed #d3d5d6;
 	border-bottom: none;
 }
 h1 {
 	font: normal 1.5em Verdana, Arial, Helvetica, sans-serif;
 	border-bottom: 1px dashed #d3d5d6;
-	padding: 5px * 5px 5px;
+	margin-top: -0.1%;
+	padding: 5px 5px 5px 8px;
 	color: #14556b;
 }
 p {
-	font: 1.0em Georgia, "Times New Roman", Times, serif;
-	margin: 10px 5px;
+	font: 16pt Georgia, "Times New Roman", Times, serif;
+	margin: 15px 8px;
 }
 .copyright {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 1.0em;
-	text-transform: ?;
+	font-size: 0.9em;
+	text-transform: uppercase;
 	color: #c6c9ca;
-	margin-left: *px;
-	padding-left: *px;
+	margin-left: 3px;
+	padding-left: 3px;
 	border-top: 1px dashed #d3d5d6;
-	clear: ?;
+	clear: right;
 }
 /* пользовательские стили  */
 
 figure {
   float: right;
-  width: ***px;
-  margin: **px **px *px *px;
+  width: 225px;
+  margin: 5px 5px 8px 8px;
 }
 figure img {
-  border: 2px solid #***;
+  border: 2px solid #767676;
   background-color: #CCC;
-  padding: **px;
+  padding: 10px;
 }
 figcaption {
-  font: bold 1em/normal Verdana, Arial, Helvetica, sans-serif;
-  color: #8a8a8a;
-  text-align: left;
+  font: bold 0.6em/normal Verdana, Arial, Helvetica, sans-serif;
+  color: #323232;
+  text-align: center;
   background-image: linear-gradient(to bottom, #e6f3ff, white);
   border: 1px dashed #d3d5d6;
-  padding: 10px;
+  padding: 1.5% 2.8%;
 }

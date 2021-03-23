@@ -29,11 +29,15 @@ table {
 }
 */
 /* конец кода сброса стилей браузера */
-
+body {
+	background-color: white;
+}
 .main {
-	background-color: #abcaea;
-	height: 100%;
-	width: 100%;
+	background-image: url("images/bg_body.png"),url("images/bg_body.png");
+	background-repeat:no-repeat;
+	background-size: 572px 136px;
+	background-position: 0% -2%, 100% -2%;
+	background-color: #cde0f1;
 
 }
 
@@ -56,12 +60,14 @@ table {
 	background-repeat: no-repeat;
 	background-position: 0% 0%;
 	background-size: cover;
+
 }
 .main h2 {
 	width: 760px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: left;
+
 }
 .main h3 {
 	width: 760px;
@@ -74,9 +80,9 @@ table {
 .main ul {
 	width: 760px;
 	margin-left: auto;
-	margin-right: auto;
+	margin-right: 0%;
 	color: #2f82d5;
-	text-align: right;
+	text-align: left;
 }
 
 .main p {
@@ -84,5 +90,14 @@ table {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+
+}
+
+.part_One {
+	margin-bottom: 200px;
+}
+
+.part_Two {
+	padding-right: 5px;
 
 }

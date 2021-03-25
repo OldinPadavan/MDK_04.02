@@ -1,4 +1,4 @@
-/* сброс стилей браузера
+/* сброс стилей браузера */
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
@@ -27,28 +27,27 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-*/
 /* конец кода сброса стилей браузера */
+
 body {
-	font-size: 62.5%;
+  font-size: 62.5%;
   font-family: Arial, Helvetica, sans-serif;
   color: #002D4B;
   background: #E1EEFD url(images/bg_body.png) repeat-x;
 }
+
 .main {
-	width: 740px;
+  width: 740px;
   margin: 0 auto;
   padding: 0 10px;
   border: 4px solid white;
   background: transparent url(images/bg_banner.jpg) no-repeat;
-
 }
+
 .main h1 {
-  color: #e1d105;
+  color: #FF6600;
 	font-family: "Arial Black", Arial, Helvetica, sans-serif;
 	font-size: 4em;
-	margin-top: 10px;
-	text-shadow: 3px 5px 5px black;
 }
 
 .main h1 strong {
@@ -57,13 +56,14 @@ body {
   line-height: 1em;
   margin-right: -1.25em;
 }
+
+
 .main h2 {
 	font: bold 3.5em "Hoefler Text", Garamond, Times, serif;
-	color: #1083e9;
-	border-bottom: 1px solid #acb2b8;
+	border-bottom: 1px solid #002D4B;
 	margin-top: 25px;
-
 }
+
 .main h3 {
 	color: #F60;
 	font-size: 1.9em;
@@ -73,18 +73,6 @@ body {
 	margin-bottom: 10px;
 }
 
-.main ul {
-	margin: 30px -10px 25px 30px;
-	width: 225px;
-	float: right;
-	padding: 20px;
-	font-size: 14px;
-	line-height: 1.7;
-	color: #4a9feb;
-	list-style: square outside;
-}
-
-
 .main p {
 	font-size: 1.5em;
 	line-height: 150%;
@@ -92,20 +80,47 @@ body {
 	margin-left: 150px;
 	margin-right: 50px;
 }
+
 .main p:first-line {
   font-weight: bold;
   color: #999;
 }
 
+
+.resources {
+	margin: 0 0 25px 50px;
+	width: 225px;
+	float: right;
+	padding: 20px;
+	background: #F5EFFB;
+}
+
+.resources h3 {
+	margin-top: 0;
+	color: #002D4B;
+}
+
+.resources li {
+	font-size: 1.5em;
+	margin-bottom: 7px;
+	color: #207EBF;
+}
+
 .main .byline {
   color: #999999;
-	font-size: 1.4em;
-	margin: -25px 0 25px 40px;
-	font-stretch: normal;
+	font-size: 1.6em;
+	margin: 5px 0 25px 40px;
 }
 
 .main .byline strong {
 	color: #207EBF;
 	text-transform: uppercase;
 	margin-left: 11px;
+}
+.main .legal{
+	margin-top: 15px;
+	padding-top: 5px;
+	border-top: 1px solid #FFF;
+	margin-left: 0px;
+	padding-left: 150px;
 }

@@ -12,7 +12,7 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block;
 }
-body {
+/*body {
   line-height: 1.2;
 }
 ol {
@@ -26,9 +26,11 @@ ul {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-}
+}*/
 body {
   background-color: #f4e962;
+  margin: 0;
+  padding: 0;
 }
 
 .white_page {
@@ -54,32 +56,60 @@ body {
   padding-bottom: 10px;
 }
 
-h2 {
+
+ h2 {
   font-family: Verdana;
   font-size: 24px;
   color:#f2950f;
-  border-bottom: 1px dashed #eeb25c;
   padding-top: 5px;
   padding-bottom: 5px;
-  padding-left: 3px;
+
 }
+
+.Zagolovok {
+  margin-top: 0px;
+  margin-left: 15px;
+  margin-right: 25px;
+  border-bottom: 2px dotted #f0c873;
+  border-top: 2px dotted #f0c873;
+
+
+}
+
+p {
+  margin-left: 15px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
 
 
 .sticker {
-  border-top: 25px solid #f46800;
-  border-bottom: none;
-  margin-left: 450px;
-  margin-right: 20px;
-  padding-left: 15px;
-  padding-right: 35px;
+
+  border-top: 25px solid #ff6f04;
+  float: right;
   background-color: #fde7c8;
-  border-top: none;
   border-radius: 10px 10px 10px 10px;
-  padding-bottom: 15px;
+  margin-left: 360px;
+  margin-right: 10px;
+  padding: 20px;
   box-shadow: 2px 3px 10px black;
 
+
+
+
 }
-.sticker .stnotification {
-  padding-right: 150px;
-  
+.sticker h2 {
+  margin-left: 0px;
+  border-bottom:none;
+
 }
+
+.sticker p {
+  margin: 0;
+}
+
+
+ .copyrights {
+   margin-top: 5px;
+ }

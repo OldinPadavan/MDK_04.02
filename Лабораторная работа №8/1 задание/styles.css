@@ -33,11 +33,14 @@ table {
 	background-image: url("images/bg_page.png");
 	background-repeat: repeat-x;
 	background-size: auto;
+	padding: 0;
+	margin: 0;
 
 }
 
 .wrapper {
 	background-image: url("images/bg_main.jpg");
+	background-color: white;
 	background-repeat: no-repeat;
 	background-position: top;
 	width: 960px;
@@ -56,11 +59,13 @@ table {
 }
 
 .announcement {
+	margin-top: 80px;
 	margin-right: 600px;
 	margin-left: 20px;
+	padding-bottom: 65px;
 	background-image: url("images/scroll_top.jpg"), url("images/scroll_bottom.jpg"), url("images/scroll_middle.jpg");
 	background-repeat: no-repeat, no-repeat, no-repeat;
-	background-position: 50% 25%, 50% 100%, 50% 75%;
+	background-position: 0% 12%, 0% 95%, 0% 60%;
 
 }
 
@@ -78,6 +83,7 @@ table {
 
 
 .banner h1 {
+	margin-top: 5%;
 	font: normal 48px Georgia, "Times New Roman", Times, serif;
 	text-align: right;
   color: #272D32;
@@ -85,8 +91,9 @@ table {
 
 .main h2 {
 	font: 24px Tahoma, Geneva, sans-serif;
+	margin-top: -5px;
 	padding-bottom: 6px;
-	margin-bottom: 15px;
+	margin-bottom: 1px;
 	font-family: Tahoma, Geneva, sans-serif;
 	background-image: url("images/underline.png");
 	background-repeat: no-repeat;
@@ -107,14 +114,27 @@ table {
 	color: #323A3F;
 	text-transform: uppercase;
 	letter-spacing: 1px;
+<<<<<<< HEAD
 	margin-bottom: 15px;
 	padding-right: 2%;
 	padding-top: 160px;
+=======
+	margin-bottom: 20px;
+	padding-right: 2.5%;
+	padding-top: 120px;
+>>>>>>> 3b8b16b0765f63bee21ed31f2feeb1071bff5459
 }
 .announcement ul {
+	margin-left: 30px;
+	margin-right: 40px;
 	font: 14px Tahoma, Geneva, sans-serif;
+<<<<<<< HEAD
 	padding-top: 5px;
 	line-height: 2.5;
+=======
+	line-height: 2;
+	text-align: left;
+>>>>>>> 3b8b16b0765f63bee21ed31f2feeb1071bff5459
 	list-style: url("images/bullet.png")outside;
 	padding-left: 20%;
 

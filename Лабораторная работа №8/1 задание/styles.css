@@ -114,27 +114,22 @@ table {
 	color: #323A3F;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-<<<<<<< HEAD
-	margin-bottom: 15px;
-	padding-right: 2%;
-	padding-top: 160px;
-=======
+
 	margin-bottom: 20px;
 	padding-right: 2.5%;
 	padding-top: 120px;
->>>>>>> 3b8b16b0765f63bee21ed31f2feeb1071bff5459
+
 }
 .announcement ul {
 	margin-left: 30px;
 	margin-right: 40px;
 	font: 14px Tahoma, Geneva, sans-serif;
-<<<<<<< HEAD
+
 	padding-top: 5px;
-	line-height: 2.5;
-=======
-	line-height: 2;
+	line-height: 1.5;
+
 	text-align: left;
->>>>>>> 3b8b16b0765f63bee21ed31f2feeb1071bff5459
+
 	list-style: url("images/bullet.png")outside;
 	padding-left: 20%;
 
